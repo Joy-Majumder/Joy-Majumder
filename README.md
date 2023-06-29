@@ -3,7 +3,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joy-majumder" alt="joy-majumder" /></a> </p>
 
-- 🌱 I’m currently learning **python , java , c & c++**
+- 🔭 I’m currently working on [Fusion (Web music player)](https://github.com/niloymajumder/Fusion)
+
+- 🌱 I’m currently learning **python , java **
 
 - ⚡ Fun fact **The first programmer was the daughter of a mad poet**
 
