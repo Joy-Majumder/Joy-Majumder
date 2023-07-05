@@ -1,11 +1,12 @@
-<h1 align="center">Hi 👋, I'm Joy</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=joy-majumder&label=Profile%20views&color=0e75b6&style=flat" alt="joy-majumder" /> </p>
+# About Me :
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=joy-majumder" alt="joy-majumder" /></a> </p>
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7E83B&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Joy;Welcome+to+Github+Profile!;I'm+a+FrontEnd+Developer;I'm+a+Competitive+Programmer" alt="Typing SVG" /></a>
+</p>
 
 - 🔭 I’m currently working on [Fusion (Web music player)](https://github.com/niloymajumder/Fusion)
 
-- 🌱 I’m currently learning **python , java **
+- 🌱 I’m currently learning **python & java **
 
 - ⚡ Fun fact **The first programmer was the daughter of a mad poet**
 
@@ -26,3 +27,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=joy-majumder&show_icons=true&locale=en" alt="joy-majumder" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=joy-majumder&" alt="joy-majumder" /></p>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=joy-majumder&label=Profile%20views&color=0e75b6&style=flat" alt="joy-majumder" /> </p>
