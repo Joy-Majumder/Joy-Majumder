@@ -1,8 +1,6 @@
 # About Me :
 
-<p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7E83B&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Joy;Welcome+to+Github+Profile!;I'm+a+FrontEnd+Developer;I'm+a+Competitive+Programmer" alt="Typing SVG" /></a>
-</p>
+<h1 align="center">Hi, I'm Joy</h1>
 
 -  I’m currently working on [Fusion (Web music player)](https://github.com/niloymajumder/Fusion)
 -  Code Enthusiast || Digital Security Enthusiast || CTF Player
@@ -88,6 +86,3 @@
 </div>
 
 ###
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Joy-Majumder/Joy-Majumder/output/snake.svg" alt="Snake animation" />
