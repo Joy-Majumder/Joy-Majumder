@@ -7,7 +7,8 @@
 -  Fun fact **The first programmer was the daughter of a mad poet**
 
 <img align="right" height="150" src="https://i.ibb.co/ZxFX734/luffy.jpg"  />
-
+<img align="right" src="https://tryhackme-badges.s3.amazonaws.com/Joy0x1.png" alt="TryHackMe">
+ 
 ###
 
 <h2 align="left">I code with</h2>
