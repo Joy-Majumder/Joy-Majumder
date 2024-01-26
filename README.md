@@ -2,7 +2,8 @@
 
 <h1 align="center">Hi, I'm Joy</h1>
 
--  I’m currently working on [Fusion (Web music player)](https://playfusion.netlify.app/)
+-  Currently working paused on [Fusion (Web music player)](https://playfusion.netlify.app/)
+-  Currently working on (Personal Project)
 -  Code Enthusiast || Digital Security Enthusiast || CTF Player
 -  Fun fact **The first programmer was the daughter of a mad poet**
 
