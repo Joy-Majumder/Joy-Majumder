@@ -14,11 +14,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: lowlighter/metrics@main
       - name: Half-year calendar
       - name: Labels
       - name: Contributors with contributions count
       - name: JavaScript or TypeScript snippet of the day
-      - uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.PIAL }}
           base: ""
