@@ -1,24 +1,26 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - master
+      - main
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@main
-      - name: Half-year calendar
-      - name: Labels
-      - name: Contributors with contributions count
-      - name: JavaScript or TypeScript snippet of the day
+      - name: Setup Metrics
+        uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.PIAL }}
           base: ""
@@ -29,10 +31,10 @@ jobs:
           plugin_contributors: yes
           plugin_contributors_categories: |
             {
-            "📚 Documentation": ["README.md", "docs/**"],
-            "💻 Code": ["source/**", "src/**"],
-            "#️⃣ Others": ["*"]
+              "📚 Documentation": ["README.md", "docs/**"],
+              "💻 Code": ["source/**", "src/**"],
+              "#️⃣ Others": ["*"]
             }
           plugin_code: yes
-          plugin_code_languages: JavaScript, TypeScript, Python, Rust, C, C++, Ruby, C#, Java, Go, PHP, Swift, Kotlin, Dart, R, Scala, Haskell, Julia, Perl, Shell, Objective-C, Elixir, Lua  
+          plugin_code_languages: JavaScript, TypeScript, Python, Rust, C, C++, Ruby, C#, Java, Go, PHP, Swift, Kotlin, Dart, R, Scala, Haskell, Julia, Perl, Shell, Objective-C, Elixir, Lua
           plugin_code_load: 400
