@@ -14,6 +14,25 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Half-year calendar
+      - name: Labels
+      - name: Contributors with contributions count
+      - name: JavaScript or TypeScript snippet of the day
       - uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.PIAL }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_contributors: yes
+          plugin_contributors_categories: |
+            {
+            "📚 Documentation": ["README.md", "docs/**"],
+            "💻 Code": ["source/**", "src/**"],
+            "#️⃣ Others": ["*"]
+            }
+          plugin_code: yes
+          plugin_code_languages: JavaScript, TypeScript, Python, Rust, C, C++, Ruby, C#, Java, Go, PHP, Swift, Kotlin, Dart, R, Scala, Haskell, Julia, Perl, Shell, Objective-C, Elixir, Lua  
+          plugin_code_load: 400
